@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Coffee House</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Lato:wght@700;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <a class="skip-navigation" href="#main-content">Skip to main content</a>
+
+  <header class="masthead" id="page-top">
+    <div class="container masthead__inner">
+      <a class="masthead__logo" href="#page-top" aria-label="Go to My Coffee House home">
+        <img src="images/my-coffee-shop-logo.svg" alt="My Coffee House">
+      </a>
+
+      <a class="nav-trigger" href="#primary-navigation" aria-label="Open main navigation">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+
+      <nav class="navigation" id="primary-navigation" aria-label="Main navigation">
+        <a class="navigation__close" href="#page-top" aria-label="Close main navigation">×</a>
+
+        <ul class="navigation__list">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#locations">Locations</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="banner" aria-labelledby="banner-title">
+      <img
+        class="banner__image"
+        src="images/hero-background-1440.jpg"
+        srcset="
+          images/hero-background-480.jpg 480w,
+          images/hero-background-768.jpg 768w,
+          images/hero-background-1200.jpg 1200w,
+          images/hero-background-1440.jpg 1440w,
+          images/hero-background-2000.jpg 2000w
+        "
+        sizes="100vw"
+        alt="A smiling barista preparing a drink behind a coffee shop counter"
+      >
+
+      <div class="banner__shade" aria-hidden="true"></div>
+
+      <div class="container banner__content">
+        <h1 id="banner-title">Experience Coffee Like Never Before</h1>
+
+        <p>
+          We craft more than beverages; we curate memories, one flavourful moment
+          at a time. Embrace the aroma and let every visit be a chapter in your
+          coffee story.
+        </p>
+
+        <a class="cta cta--light" href="#menu">Explore Our Menu</a>
+      </div>
+    </section>
+
+    <section class="coffee-gallery section-space" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-intro section-intro--left">
+          <p class="kicker">Welcome to My Coffee House</p>
+          <h2 id="gallery-title">Experience a New Way to Taste Coffee</h2>
+        </header>
+
+        <ul class="coffee-gallery__grid" aria-label="Coffee shop image gallery">
+          <li class="coffee-gallery__feature">
+            <img
+              src="images/pouring-coffee.jpeg"
+              alt="Steamed milk being poured into coffee to create latte art"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/coffee-beans.jpeg"
+              alt="Roasted coffee beans beside brewing equipment"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/latte.jpeg"
+              alt="Fresh coffee being poured into a glass coffee server"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/three-cups.jpeg"
+              alt="Three people holding cups decorated with latte art"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/smiling-employee.jpeg"
+              alt="A smiling coffee shop employee standing behind the counter"
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="benefits section-space" aria-labelledby="benefits-title">
+      <div class="container">
+        <header class="section-intro">
+          <p class="kicker">What We Offer</p>
+          <h2 id="benefits-title">Why Visit Us?</h2>
+        </header>
+
+        <ul class="benefits__list">
+          <li class="benefit">
+            <img src="images/fair-trade.svg" alt="" aria-hidden="true">
+            <h3>Fair Trade Coffee</h3>
+            <p>
+              We build direct relationships with the farmers and producers who
+              help in the development of delicious, sustainable and organic coffee.
+            </p>
+          </li>
+
+          <li class="benefit">
+            <img src="images/local-baked-goods.svg" alt="" aria-hidden="true">
+            <h3>Local Baked Goods</h3>
+            <p>
+              We use local products to bake our goods and bring in a variety of
+              treats from local bakers within our community.
+            </p>
+          </li>
+
+          <li class="benefit">
+            <img src="images/made-with-love.svg" alt="" aria-hidden="true">
+            <h3>Made With Love</h3>
+            <p>
+              We value our customers and make it our priority to serve everyone
+              with respect and a friendly smile to start their day off right.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="discover" aria-label="Explore menu and locations">
+      <article class="discover-card" id="menu">
+        <img
+          src="images/coffee-shop.jpeg"
+          alt="An overhead view of customers and staff inside a coffee shop"
+        >
+
+        <div class="discover-card__overlay" aria-hidden="true"></div>
+
+        <div class="discover-card__content">
+          <p class="kicker">Our Menu</p>
+          <h2>Explore What We Have to Offer You</h2>
+          <a class="cta cta--light" href="#menu">Explore Our Menu</a>
+        </div>
+      </article>
+
+      <article class="discover-card" id="locations">
+        <img
+          src="images/coffee-shop.jpeg"
+          alt="A welcoming coffee shop interior with tables and large windows"
+        >
+
+        <div class="discover-card__overlay" aria-hidden="true"></div>
+
+        <div class="discover-card__content">
+          <p class="kicker">Locations</p>
+          <h2>Find Your Nearest Coffee Shop</h2>
+          <a class="cta cta--outline" href="#locations">View Locations</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="our-story section-space" id="about" aria-labelledby="story-title">
+      <div class="container our-story__layout">
+        <img
+          class="our-story__photo"
+          src="images/about-us.jpeg"
+          alt="Two baristas working together at an espresso machine"
+        >
+
+        <div class="our-story__content">
+          <p class="kicker">About Us</p>
+          <h2 id="story-title">Read Our Story</h2>
+
+          <p>
+            In the heart of our community, My Coffee House emerged as a humble
+            local coffee shop that sought to redefine the coffee experience.
+            Founded with a passion for quality brews and a commitment to fostering
+            genuine connections, we embarked on this journey with a vision to
+            create a warm and inviting space for coffee enthusiasts and casual
+            patrons alike.
+          </p>
+
+          <p>
+            My Coffee House quickly became a cherished gathering spot, where the
+            rich aroma of freshly ground coffee beans mingled with the laughter
+            of friends and the tapping of keyboards from those seeking a cozy workspace.
+          </p>
+
+          <a class="cta cta--dark" href="#about">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section-space" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section-intro section-intro--left reviews__heading">
+          <p class="kicker">Testimonials</p>
+          <h2 id="reviews-title">What Our Customers Say About Us</h2>
+        </header>
+
+        <ul class="reviews__grid">
+          <li class="review-card">
+            <img
+              src="images/testimonial-1.jpeg"
+              alt="Jane holding a white coffee cup"
+            >
+
+            <div class="review-card__shade" aria-hidden="true"></div>
+
+            <blockquote>
+              <p>
+                “I always make a point to visit My Coffee House when in Ottawa.
+                Delicious coffee and friendly service.”
+              </p>
+              <cite>Jane D., Toronto</cite>
+            </blockquote>
+          </li>
+
+          <li class="review-card">
+            <img
+              src="images/testimonial-2.jpeg"
+              alt="Scott smiling while seated in a coffee shop"
+            >
+
+            <div class="review-card__shade" aria-hidden="true"></div>
+
+            <blockquote>
+              <p>
+                “Great atmosphere to get some work done while enjoying a cup or
+                two of incredible coffee.”
+              </p>
+              <cite>Scott S., Ottawa</cite>
+            </blockquote>
+          </li>
+
+          <li class="review-card">
+            <img
+              src="images/testimonial-3.jpeg"
+              alt="Susie drinking an iced coffee while working"
+            >
+
+            <div class="review-card__shade" aria-hidden="true"></div>
+
+            <blockquote>
+              <p>
+                “Best coffee in the Ottawa area and the service is top notch.
+                Would highly recommend a visit.”
+              </p>
+              <cite>Susie F., Ottawa</cite>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <p>&copy; My Coffee House 2026</p>
+    </div>
+  </footer>
+</body>
+</html>
